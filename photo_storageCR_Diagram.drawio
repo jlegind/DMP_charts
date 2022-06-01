@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T10:48:36.019Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="GPTJuSke4rKiH-mboVxd" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T10:51:11.838Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="JV9NKaFZ5YZ3adOSDIzE" version="18.1.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1174" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -27,6 +27,9 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="image sits on a local device." style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-4" vertex="1">
           <mxGeometry x="20" y="120" width="90" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-6" value="Barcode attached to specimen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
+          <mxGeometry x="5" y="194" width="120" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="storage" style="swimlane;swimlaneHead=0;swimlaneBody=0;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" parent="3nuBFxr9cyL0pnOWT2aG-3" vertex="1">
           <mxGeometry x="170" width="130" height="250" as="geometry">
             <mxRectangle width="130" height="250" as="alternateBounds" />
@@ -39,6 +42,15 @@
         </mxCell>
         <mxCell id="_hpJa4ouuQT9x8elAZo5-3" value="&lt;b&gt;Webserver/file server&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
           <mxGeometry x="25" y="10" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-7" value="Portal updated" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
+          <mxGeometry x="230" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="270" as="sourcePoint" />
+            <mxPoint x="290" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-15" value="pipeline" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry y="290" width="670" height="163" as="geometry" />
@@ -83,12 +95,12 @@
         <mxCell id="Sz02j6fgM9nKu5jAnxdl-25" value="&lt;u&gt;archival storage&lt;/u&gt;&lt;br&gt;The Tiff image goes into permanent storage&amp;nbsp;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="20" y="10" width="120" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" edge="1" source="3nuBFxr9cyL0pnOWT2aG-17">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" edge="1" source="3nuBFxr9cyL0pnOWT2aG-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-40" y="10" as="sourcePoint" />
             <mxPoint x="200" y="40" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-42" y="-40" />
+              <mxPoint x="10" y="-40" />
               <mxPoint x="180" y="-40" />
               <mxPoint x="180" y="40" />
             </Array>
