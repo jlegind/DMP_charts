@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T13:23:42.416Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="WAI2Fp3WxjRE1i7iY9_M" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T09:51:46.654Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="ZfEsnICdqCSBHY72S6WZ" version="18.1.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1294" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1174" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,7 +48,7 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-17" value="RAW or Tiff files?&lt;br&gt;Naming convention" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-16" vertex="1">
           <mxGeometry x="20" y="20" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-25" value="&lt;u&gt;archival storage&lt;/u&gt;&lt;br&gt;The Tiff image goes into permanent storage&amp;nbsp;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-16">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-25" value="&lt;u&gt;archival storage&lt;/u&gt;&lt;br&gt;The Tiff image goes into permanent storage&amp;nbsp;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-16" vertex="1">
           <mxGeometry x="5" y="90" width="120" height="68" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-18" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" parent="3nuBFxr9cyL0pnOWT2aG-15" vertex="1">
@@ -68,16 +68,16 @@
             <mxPoint x="20" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-3" value="&lt;p&gt;&lt;u&gt;File server system&lt;/u&gt;&lt;/p&gt;&lt;p&gt;Web friendly images go to file server&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-3" value="&lt;p&gt;&lt;u&gt;File server system&lt;/u&gt;&lt;/p&gt;&lt;p&gt;Web friendly images go to file server&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="125" y="103" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="123" as="sourcePoint" />
             <mxPoint x="250" y="123" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="125.5" as="targetPoint" />
             <mxPoint x="290" y="37.5" as="sourcePoint" />
@@ -88,49 +88,49 @@
             <mxRectangle width="130" height="163" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-2" value="Portal back end populates from FSS&lt;br&gt;+ thumbnailing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-23">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-2" value="Portal backend populates from FSS&lt;br&gt;+ thumbnailing" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-23" vertex="1">
           <mxGeometry x="5" y="43" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sz02j6fgM9nKu5jAnxdl-3">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Sz02j6fgM9nKu5jAnxdl-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="710" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sz02j6fgM9nKu5jAnxdl-2">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Sz02j6fgM9nKu5jAnxdl-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="710" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tW_h6k3Qktg1qqfwYW8L-1">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tW_h6k3Qktg1qqfwYW8L-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="406.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-13" value="1) If the image goes to external storage (a laptop) that saves one additional task: Extracting the SD card and transferring the images." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-13" value="1) If the image goes to external storage (a laptop) that saves one additional task: Extracting the SD card and transferring the images." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="80" y="580" width="720" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-15" value="1." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-15" value="1." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="255" y="240" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-16" value="2." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-16" value="2." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="255" y="422" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-17" value="3." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-17" value="3." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="305" y="440" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-18" value="4." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-18" value="4." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="595" y="370" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-19" value="2) If the camera can deliver tiff that would save a convertion step. RAW have the disadvantage of being proprietary." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="79" y="600" width="630" height="20" as="geometry" />
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-19" value="2) If the camera can deliver tiff that would save a convertion step. RAW has the disadvantage of being proprietary." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="620" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-20" value="3) The images are in a vulnerable state while in local storage. They should go to archival storage at end of the day latest." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-20" value="3) The images are in a vulnerable state while in local storage. They should go to archival storage at end of the day latest." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="79" y="620" width="660" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-21" value="4) The images are converted to png/jpeg or pyramid zoom format. Thumbnails are not added to cut down on clutter.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="81" y="640" width="630" height="20" as="geometry" />
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-21" value="4) The images are converted to png/jpeg or pyramid zoom format. Should thumbnails be made in the portal to cut down on clutter.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="79" y="640" width="710" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="400" as="sourcePoint" />
             <mxPoint x="160" y="480" as="targetPoint" />
