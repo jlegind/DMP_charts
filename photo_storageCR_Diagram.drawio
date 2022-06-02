@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T12:32:41.172Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="EJ_nCDzmadEfL0ioDuMh" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-02T13:47:47.238Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="Uh3uIbsqdj90nvQfwyeW" version="18.2.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1111" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1174" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,7 +27,7 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="image sits on a local device." style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-4" vertex="1">
           <mxGeometry x="20" y="120" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_hpJa4ouuQT9x8elAZo5-6" value="Barcode attached to specimen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-6" value="Barcode attached to specimen" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-4" vertex="1">
           <mxGeometry x="5" y="194" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="storage" style="swimlane;swimlaneHead=0;swimlaneBody=0;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" parent="3nuBFxr9cyL0pnOWT2aG-3" vertex="1">
@@ -40,13 +40,13 @@
             <mxRectangle width="370" height="272" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_hpJa4ouuQT9x8elAZo5-3" value="&lt;b&gt;Webserver/file server&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-3" value="&lt;b&gt;Webserver/file server&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3nuBFxr9cyL0pnOWT2aG-11" vertex="1">
           <mxGeometry x="25" y="10" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_hpJa4ouuQT9x8elAZo5-7" value="Portal updated with new specimen images." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-7" value="Portal updated with new specimen images." style="rounded=1;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-11" vertex="1">
           <mxGeometry x="230" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_hpJa4ouuQT9x8elAZo5-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="3nuBFxr9cyL0pnOWT2aG-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="290" as="sourcePoint" />
             <mxPoint x="290" y="160" as="targetPoint" />
@@ -76,20 +76,24 @@
         </mxCell>
         <mxCell id="Sz02j6fgM9nKu5jAnxdl-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="123" as="sourcePoint" />
+            <mxPoint x="310" y="123" as="sourcePoint" />
             <mxPoint x="250" y="123" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Sz02j6fgM9nKu5jAnxdl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-18" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="125.5" as="targetPoint" />
+            <mxPoint x="310" y="126" as="targetPoint" />
             <mxPoint x="290" y="37.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="310" y="38" />
+              <mxPoint x="310" y="126" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Sz02j6fgM9nKu5jAnxdl-25" value="&lt;u&gt;archival storage&lt;/u&gt;&lt;br&gt;The Tiff image goes into permanent storage&amp;nbsp;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="20" y="10" width="120" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" edge="1" source="3nuBFxr9cyL0pnOWT2aG-17">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="3nuBFxr9cyL0pnOWT2aG-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-40" y="10" as="sourcePoint" />
             <mxPoint x="200" y="40" as="targetPoint" />
@@ -100,10 +104,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_hpJa4ouuQT9x8elAZo5-10" value="Specify is updated with the Tiff file name" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-10" value="Specify is updated with the Tiff file name" style="rounded=1;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="20" y="108" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_hpJa4ouuQT9x8elAZo5-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="3nuBFxr9cyL0pnOWT2aG-17">
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="3nuBFxr9cyL0pnOWT2aG-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-80" y="118" as="sourcePoint" />
             <mxPoint x="20" y="138" as="targetPoint" />
@@ -112,7 +116,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_hpJa4ouuQT9x8elAZo5-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-25" y="48" as="sourcePoint" />
             <mxPoint x="20" y="48" as="targetPoint" />
@@ -123,19 +127,13 @@
             <mxRectangle width="370" height="178" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-2" value="Portal backend populates from FS&lt;br&gt;+ thumbnailing" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-23" vertex="1">
-          <mxGeometry x="215" y="25" width="120" height="60" as="geometry" />
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-2" value="Portal backend populates from FS" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-23" vertex="1">
+          <mxGeometry x="226" y="25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sz02j6fgM9nKu5jAnxdl-18" value="&lt;b&gt;4.&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3nuBFxr9cyL0pnOWT2aG-23" vertex="1">
           <mxGeometry x="41" y="67" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_hpJa4ouuQT9x8elAZo5-19" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-23">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="71" y="54.5" as="sourcePoint" />
-            <mxPoint x="11" y="54.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3nuBFxr9cyL0pnOWT2aG-15" source="Sz02j6fgM9nKu5jAnxdl-3" edge="1" target="Sz02j6fgM9nKu5jAnxdl-2">
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3nuBFxr9cyL0pnOWT2aG-15" source="Sz02j6fgM9nKu5jAnxdl-3" target="Sz02j6fgM9nKu5jAnxdl-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="98" as="targetPoint" />
           </mxGeometry>
@@ -158,17 +156,26 @@
         <mxCell id="Sz02j6fgM9nKu5jAnxdl-20" value="3) The images are in a vulnerable state while in local storage. They should go to archival storage at end of the day latest." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="79" y="620" width="660" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Sz02j6fgM9nKu5jAnxdl-21" value="4) The images are converted to png/jpeg or pyramid zoom format. This is where we could convert to Tiff before ." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="80" y="640" width="610" height="20" as="geometry" />
+        <mxCell id="Sz02j6fgM9nKu5jAnxdl-21" value="4) The images are converted to png/jpeg or pyramid zoom format. This is where we could convert to Tiff before sending to archival storage." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="81" y="640" width="750" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_hpJa4ouuQT9x8elAZo5-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="599" y="560" as="sourcePoint" />
             <mxPoint x="599" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_hpJa4ouuQT9x8elAZo5-12" value="&lt;b&gt;5.&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="_hpJa4ouuQT9x8elAZo5-12" value="&lt;b&gt;5.&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="645" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nAryJtn3wbdacrvZcyFv-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.917;exitY=0.706;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Sz02j6fgM9nKu5jAnxdl-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="480" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nAryJtn3wbdacrvZcyFv-2" value="5) The portal backend pulls from the image file server system. Separating archiving and publication has the neat feature of letting &lt;br&gt;the archive files remain largely untouched.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="82" y="665" width="700" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
